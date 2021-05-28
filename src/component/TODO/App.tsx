@@ -23,9 +23,9 @@ const App = () => {
 
   const [list, isloading] = useLocalStorage(); //custom hooks
 
-  if (!window.localStorage.getItem("Info")) {
-    history.push("/");
-  }
+  // if (!window.localStorage.getItem("Info")) {
+  //   history.push("/");
+  // }
   function getValue(event: {
     target: { value: React.SetStateAction<string> };
   }) {
