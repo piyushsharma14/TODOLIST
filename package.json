@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "npm": "7.x",
-    "node": "15.x"
+    "npm": "7.7.x",
+    "node": "15.13.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
@@ -31,10 +31,10 @@
     "redux": "^4.1.0",
     "web-vitals": "^1.1.1"
   },
-  "scripts": {
-    "start": "node index.js",
-  "build": "ng build",
-  "heroku-postbuild": "ng build --prod" ,
+   "scripts": {
+   "start": "node index.js",
+   "build": "ng build",
+     "heroku-postbuild": "ng build --prod" ,
     
     "test": "react-scripts test",
     "eject": "react-scripts eject"
